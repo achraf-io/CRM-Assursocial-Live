@@ -1,0 +1,125 @@
+[13-Dec-2021 11:22:48 UTC] PHP Fatal error:  Cannot redeclare Si_lead_filter_model::get() in /var/www/html/modules/si_lead_filters/models/Si_lead_filter_model.php on line 96
+[21-Dec-2021 17:08:34 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:08:40 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:08:51 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:08:53 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:08:54 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:08:54 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:08:54 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:08:55 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:08:55 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:08:56 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:09:04 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:09:35 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:09:38 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:09:46 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:09:48 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:10:04 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:17 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:19 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:20 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:21 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:21 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:22 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:22 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:22 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:22 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:22 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:22 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:23 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:27 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:27 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
+[21-Dec-2021 17:11:29 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/index.php on line 2
