@@ -76,7 +76,17 @@ class Leads_model extends App_Model
      public function get_Staff()
     {
         
-         $this->db->select('*');
+         $this->db->select('equipe');
+         $this->db->from('staff');
+         $query = $this->db->get();
+        
+         return $query->result();
+     }
+    
+     public function get_S()
+    {
+        
+         $this->db->select('source');
          $this->db->from('staff');
          $query = $this->db->get();
         

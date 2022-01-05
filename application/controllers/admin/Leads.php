@@ -55,8 +55,10 @@ class Leads extends AdminController
         
         $data['staff_2'] = $this->staff_model->get('', ['equipe' => "Equipe Santé Marina"]);
         $data['staff_resp'] = $this->staff_model->get('', ['role' => 1]);
-        $this->load->model('Leads_model', 'staff');
-        $data['equipe'] = $this->staff->getEq();
+        $this->load->model('staff_model', 'staff'); 
+        $data['staff_equipe'] =$this->staff->get();
+       /* $data['source_id'] = $this->Leads_model->get_source(); */
+        
         
       
             /*  $data['leads_by_assigned'] = $this->leads_model->getAll_by_assigned();

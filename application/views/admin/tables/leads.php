@@ -106,6 +106,7 @@ $additionalColumns = hooks()->apply_filters('leads_table_additional_columns_sql'
     db_prefix() . 'leads.addedfrom as addedfrom',
     '(SELECT count(leadid) FROM ' . db_prefix() . 'clients WHERE ' . db_prefix() . 'clients.leadid=' . db_prefix() . 'leads.id) as is_converted',
     'zip',
+    'state'
 ]);
 
 $result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, $where, $additionalColumns);
@@ -218,7 +219,8 @@ foreach ($rResult as $aRow) {
 
     //  ajout du code postal
     $row[] = ($aRow['zip'] != '' ? '<a' . $aRow['zip'] . '">' . $aRow['zip'] . '</a>' : '');
-    
+   
+    $row[] = ($aRow['state'] != '' ? '<a href="tel:' . $aRow['state'] . '">' . $aRow['state'] . '</a>' : '');
     // Custom fields add values
     foreach ($customFieldsColumns as $customFieldColumn) {
         $row[] = (strpos($customFieldColumn, 'date_picker_') !== false ? _d($aRow[$customFieldColumn]) : $aRow[$customFieldColumn]);

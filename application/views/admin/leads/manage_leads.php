@@ -133,14 +133,17 @@
                                        }
                                     }
                                     echo '<div id="leads-filter-status">';
+                                    
                                     echo render_select('view_status[]', $statuses, array('id', 'name'), '', $selected, array('data-width' => '100%', 'data-none-selected-text' => _l('leads_all'), 'multiple' => true, 'data-actions-box' => true), array(), 'no-mbot', '', false);
                                     echo '</div>';
                                     ?>
                                  </div>
                                  <div class="col-md-3 leads-filter-column">
                                     <?php
+                                   if($staff_equipe['equipe'] = "Equipe IARD Sylvia" ){
                                     echo render_select('view_source', $sources, array('id', 'name'), '', '', array('data-width' => '100%', 'data-none-selected-text' => _l('leads_source')), array(), 'no-mbot');
-                                    ?>
+                                  }
+                                   ?>
                                  </div>
                                  <div class="col-md-3 leads-filter-column">
                                     <div class="select-placeholder">
@@ -288,7 +291,7 @@
                                     'th_attrs' => array('class' => 'toggleable', 'id' => 'th-assigned')
                                  );
                                  $_table_data[] = array(
-                                    'name' => _l('leads_dt_status'),
+                                    'name' => _l('Qualification'),
                                     'th_attrs' => array('class' => 'toggleable', 'id' => 'th-status')
                                  );
                                  $_table_data[] = array(
@@ -304,9 +307,14 @@
                                     'th_attrs' => array('class' => 'date-created toggleable', 'id' => 'th-date-created')
                                  );
                                  $_table_data[] = array(
-                                    'name' => _l(' Code Postal'),
+                                    'name' => _l('Code postal'),
                                     'th_attrs' => array('class' => 'toggleable', 'id' => 'th-zip')
                                  );
+                                 
+                                 $_table_data[] = array(
+                                    'name' => _l('Departement'),
+                                    'th_attrs' => array('class' => 'toggleable', 'id' => 'th-state')
+                                 ); 
                                  
                                  foreach ($_table_data as $_t) {
                                     array_push($table_data, $_t);
