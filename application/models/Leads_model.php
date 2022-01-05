@@ -79,7 +79,6 @@ class Leads_model extends App_Model
          $this->db->select('equipe');
          $this->db->from('staff');
          $query = $this->db->get();
-        
          return $query->result();
      }
     

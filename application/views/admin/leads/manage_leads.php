@@ -105,6 +105,7 @@
                                         if ($current_id == 17) {
                                           $selected =  $current_id;
                                                 echo  render_select('view_assigned', $staff_1, array('staffid', array('firstname', 'lastname')), '',  $selected, array('data-width' => '100%','data-none-selected-text' => _l('leads_dt_assigned')), array(), 'no-mbot','',false);
+                                                
                                              }
                                              } elseif ($current_id == 26) {
                                                 $selected = '';
@@ -140,7 +141,8 @@
                                  </div>
                                  <div class="col-md-3 leads-filter-column">
                                     <?php
-                                   if($staff_equipe['equipe'] = "Equipe IARD Sylvia" ){
+                                    print_r($staff_1[0]);
+                                   if($current_id == $staff_1[0]){
                                     echo render_select('view_source', $sources, array('id', 'name'), '', '', array('data-width' => '100%', 'data-none-selected-text' => _l('leads_source')), array(), 'no-mbot');
                                   }
                                    ?>

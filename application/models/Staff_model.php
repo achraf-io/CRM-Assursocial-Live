@@ -326,6 +326,18 @@ class Staff_model extends App_Model
 
         return true;
     }
+
+    public function getRoles()
+    {
+        
+        $this->db->select('role');
+        $this->db->from('staff');
+        
+        $this->db->where('role', );
+         $query = $this->db->get();
+        
+         return $query->result();
+     }
     /* public function insert_user($data){
         
       } */
@@ -354,6 +366,13 @@ class Staff_model extends App_Model
      
      }
  */
+public function get_Staff_equipe()
+{
+    
+        $query = $this->db->query('SELECT equipe FROM tblstaff LIMIT 1');
+        $row1 = $query->row_array();
+        return $row1;
+ }
     /**
      * Get staff member/s
      * @param  mixed $id Optional - staff id
