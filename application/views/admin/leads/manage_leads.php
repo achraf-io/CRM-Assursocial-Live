@@ -141,10 +141,10 @@
                                  </div>
                                  <div class="col-md-3 leads-filter-column">
                                     <?php
-                                    print_r($staff_1[0]);
-                                   if($current_id == $staff_1[0]){
+                                  //  print_r($staff_1[0]);
+                                  
                                     echo render_select('view_source', $sources, array('id', 'name'), '', '', array('data-width' => '100%', 'data-none-selected-text' => _l('leads_source')), array(), 'no-mbot');
-                                  }
+                                  
                                    ?>
                                  </div>
                                  <div class="col-md-3 leads-filter-column">

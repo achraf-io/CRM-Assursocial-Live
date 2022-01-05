@@ -333,7 +333,7 @@ class Staff_model extends App_Model
         $this->db->select('role');
         $this->db->from('staff');
         
-        $this->db->where('role', );
+        $this->db->where('role', 2);
          $query = $this->db->get();
         
          return $query->result();
